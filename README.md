@@ -24,3 +24,33 @@ Operators are used to assign values and compare values, perform calculations and
   <li>Conditional Operators</li>
   <li>Type Operators</li>
 </ul>
+Examples of Arithmetic Operators: <br>
+
+```
+Given that y = 5
+
++	Addition	          x  = y + 2	  y=5, x=7	
+-	Subtraction	        x = y - 2	    y=5, x=3	
+*	Multiplication	    x = y * 2	    y=5, x=10	
+**	Exponentiation	  x = y** 2	    y=5, x=25	
+/	Division	          x = y / 2	    y=5, x=2.5	
+%	Remainder	          x = y % 2	    y=5, x=1	
+++	Pre increment	    x = ++y	      y=6, x=6	
+++	Post increment	  x = y++	      y=6, x=5	
+--	Pre decrement	    x = --y	      y=4, x=4	
+--	Post decrement	  x = y--	      y=4, x=5	
+```
+Examples of Assignment Operators: <br>
+```
+Given that x = 10 and y = 5
+
+=          x = y	    x = y	        x = 5	
++=	       x += y	    x = x + y	    x = 15	
+-=	       x -= y	    x = x - y    	x = 5	
+*=	       x *= y    	x = x * y    	x = 50	
+/=	       x /= y    	x = x / y	    x = 2	
+%=	       x %= y	    x = x % y	    x = 0	
+:	         x: 45	    size.x = 45	  x = 45	
+
+```
+
