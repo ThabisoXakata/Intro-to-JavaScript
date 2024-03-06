@@ -53,4 +53,5 @@ Given that x = 10 and y = 5
 :	         x: 45	    size.x = 45	  x = 45	
 
 ```
-
+## Strings
+A string is a sequence of mutliple characters(letters, numbers, and symbols). String objects are used to hold data/information that is represented in a form of a text. Strings are one of the most fundamental concepts of programming to be familiar with, because humans and computers communicate through text. String objects can be manipulated to check the "length" of a string, can be concatenated using the "+" and "+=" string operators.
