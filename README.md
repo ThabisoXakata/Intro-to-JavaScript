@@ -58,4 +58,7 @@ A string is a sequence of mutliple characters(letters, numbers, and symbols). St
 
 ## Functions
 Refers to a a group of fully reusable codes(Set of statements) that perform specific tasks when called. Note, a function can be called anywhere in your program. Examples of functions include "alert()", write().
-- TO use function in Javascript, we first need to define them
+- To use function in Javascript, we first need to define them, then call them where ever and whenever we need them. We use function to eliminate the need to write the same complex code over and over again.
+
+## Function Definition
+- To define a function, we use the "function" keyword, followed by the function name to identify it, then we list the parameters that are going to be inside that function and a statement block surrounded by curly braces"{}".
