@@ -60,5 +60,10 @@ A string is a sequence of mutliple characters(letters, numbers, and symbols). St
 Refers to a a group of fully reusable codes(Set of statements) that perform specific tasks when called. Note, a function can be called anywhere in your program. Examples of functions include "alert()", write().
 - To use function in Javascript, we first need to define them, then call them where ever and whenever we need them. We use function to eliminate the need to write the same complex code over and over again.
 
-## Function Definition
+### Function Definition
 - To define a function, we use the "function" keyword, followed by the function name to identify it, then we list the parameters that are going to be inside that function and a statement block surrounded by curly braces"{}".
+
+### Global Scope and Functions
+- Determines how we access variables, objects, and functions from different parts of the code. Variables that have been defined outside of a function block, declared without let and/or const get automatically created in the global scope. This means, they can be seen everywhere in your JavaScript code. The reason why we promote the declaration of variables to be done using "let" or "const" is because if that is not done, it can cause unintended consequences elsewhere in your code or when running that specific function again.
+
+Local Scope- Variables which are declared within a function, as well as the function parameters, have local scope. When you declare variables within a function's parameters, they are only visible and can be accessed within that function.
