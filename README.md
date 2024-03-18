@@ -66,4 +66,42 @@ Refers to a a group of fully reusable codes(Set of statements) that perform spec
 ### Global Scope and Functions
 - Determines how we access variables, objects, and functions from different parts of the code. Variables that have been defined outside of a function block, declared without let and/or const get automatically created in the global scope. This means, they can be seen everywhere in your JavaScript code. The reason why we promote the declaration of variables to be done using "let" or "const" is because if that is not done, it can cause unintended consequences elsewhere in your code or when running that specific function again.
 
-Local Scope- Variables which are declared within a function, as well as the function parameters, have local scope. When you declare variables within a function's parameters, they are only visible and can be accessed within that function.
+- Local Scope- Variables which are declared within a function, as well as the function parameters, have local scope. When you declare variables within a function's parameters, they are only visible and can be accessed within that function.
+
+# Week 2
+### JavaScrit APIs
+- Active APIs
+-  document.getElementById(id)
+-  document.getElementsByTagName(name)
+-  document.createElement(name)
+-  parentNode.appendChild(node)
+-  element.innerHTML
+-  element.style.left
+-  element.setAttribute
+-  element.getAttribute
+-  element.addEventListener
+-  window._content
+-  window.onload
+-  window.dump()
+-  window.scrollTo()
+## Calling of functions in JavaScript
+- JavaScript reads elements, links and many other things as objects, even the ones we define ourselves as the programmers. The process of reading everything as objects is achieved by making use of functions. The are two ways to create a new object:
+- Define the object in a user-defined function.
+- Use the new keyword to create (or instantiate) the object with a call to the object function.<br>
+- You can use the same object function to create any number of new objects
+An example
+```
+king = new makeSimpleObject();
+Qween = new makeSimpleObject();
+Prince = new makeSimpleObject();
+Princess = new makeSimpleObject();
+Or Easily
+king = new Object();
+```
+- One can assign a value and define the property for their newely created object. i.e
+```
+myObject.property = value or
+king.property = "Dalindyebo"
+```
+<br>
+-  A function can be called wnywhere in the code because it behaves the same way where ever it may be in your document, this means that you can even put a function inside another function, making it a nested function.
